@@ -1,9 +1,8 @@
 /** Herança e cadeia de protótipos (prototype chain) */
 
-const pai = { attr2: 'A' }
-const filho = { __proto__: pai, attr1: 123 }
+const pai = { attr1: 'A' } 
 
-console.log(
-  filho.attr1,
-  filho.attr2
-  )
+// Herdando do objeto pai o atributo attr1
+const filho = { __proto__: pai, attr2: 'B' }
+
+console.log(filho.attr1, filho.attr2)
