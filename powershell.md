@@ -8,5 +8,6 @@ if (!(Test-Path -Path <ediklecio>)) {New-Item -ItemType File -Path <ediklecio> -
 Source: [https://github.com/Schniz/fnm](https://github.com/Schniz/fnm)
 
 File location: <br>
-C:\Users\{yourprofileonwindows}\Documents\WindowsPowerShell\{profilename}.ps1
+C:\Users\{yourprofileonwindows}\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
+
 
